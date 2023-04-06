@@ -1,0 +1,512 @@
+body {
+    font-family: "Roboto";
+    color: #434455;
+    margin: 0 auto;
+    width: 1440px;
+    position: relative;
+    background-color: #ffff;
+
+}
+
+.header-link {
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 115px;
+    height: 24px;
+    left: 156px;
+    top: 24px;
+}
+
+.header-link a {
+    width: 44px;
+    height: 21px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    text-decoration: none;
+
+
+}
+
+.header-link span {
+    width: 71px;
+    height: 21px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2E2F42;
+}
+
+.menu-link {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    margin: 0;
+    position: absolute;
+    width: 261px;
+    height: 24px;
+    left: 347px;
+    justify-content: center;
+    top: 24px;
+    list-style-type: none;
+}
+
+.menu-link .link-header {
+    width: 48px;
+    height: 24px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    list-style-type: none;
+}
+
+.link-second {
+    position: absolute;
+    width: 151px;
+    height: 24px;
+    left: 1133px;
+    top: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.link-contact {
+    position: absolute;
+    width: 153px;
+    height: 24px;
+    left: 940px;
+    top: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+    text-decoration: none;
+}
+
+.menu-contact {
+    list-style-type: none;
+}
+
+.first-bloc {
+    position: absolute;
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 72px;
+    background: #2E2F42;
+}
+
+.first-bloc .bloc-logo {
+    position: absolute;
+    width: 496px;
+    height: 120px;
+    left: 472px;
+    top: 188px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.first-bloc .first-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;
+
+    position: absolute;
+    width: 175px;
+    height: 56px;
+    left: 636px;
+    top: 428px;
+
+
+
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.first-bloc button {
+    width: 105px;
+    height: 24px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+
+
+}
+
+.second-bloc {
+    position: absolute;
+    width: 1128px;
+    height: 104px;
+    top: 720px;
+
+}
+
+.second-content .link-one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 264px;
+    height: 104px;
+    left: 156px;
+}
+
+.second-content .link-two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 264px;
+    height: 104px;
+    left: 444px;
+
+}
+
+.second-content .link-three {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 264px;
+    height: 104px;
+    left: 732px;
+
+}
+
+.second-content .link-four {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 264px;
+    height: 104px;
+    left: 1020px;
+
+}
+
+.second-content h3 {
+    width: 264px;
+    height: 24px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: #2E2F42;
+
+
+}
+
+.second-content p {
+    width: 264px;
+    height: 72px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+
+    letter-spacing: 0.02em;
+
+
+    color: #434455;
+
+
+}
+
+.thre-bloc {
+    position: absolute;
+    width: 1128px;
+    height: 412px;
+    top: 944px;
+
+}
+
+.thre-bloc h2 {
+    position: absolute;
+    width: 333px;
+    height: 40px;
+    left: 559px;
+    top: 120px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+
+
+    color: #2E2F42;
+}
+
+.thre-content .link-one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 360px;
+    height: 300px;
+    left: 156px;
+    top: 232px;
+}
+
+.thre-content .link-two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 360px;
+    height: 300px;
+    left: 540px;
+    top: 232px;
+}
+
+.thre-content .link-thre {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 360px;
+    height: 300px;
+    left: 924px;
+    top: 232px;
+}
+
+.four-bloc {
+    position: absolute;
+    width: 1440px;
+    height: 732px;
+    left: 0px;
+    top: 1568px;
+
+
+    background: #F4F4FD;
+}
+
+.four-logo {
+    position: absolute;
+    width: 172px;
+    height: 40px;
+    left: 639px;
+    top: 70px;
+
+    /* Header 2 */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    color: #2E2F42;
+}
+
+.four-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 32px;
+    gap: 32px;
+
+    position: absolute;
+    width: 264px;
+    height: 380px;
+
+
+    /* WHITE
+
+Header background, team card background
+*/
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+
+}
+
+.four-content :nth-child(1) {
+    left: 156px;
+    top: 242px;
+}
+
+.four-content :nth-child(2) {
+    left: 444px;
+    top: 242px;
+}
+
+.four-content :nth-child(3) {
+    left: 732px;
+    top: 242px;
+}
+
+.four-content :nth-child(4) {
+    left: 1020px;
+    top: 242px;
+}
+
+.last-bloc {
+    position: absolute;
+    width: 1440px;
+    height: 312px;
+    left: 0px;
+    top: 2280px;
+    background: #2E2F42;
+}
+
+.last-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 115px;
+    height: 24px;
+    left: 156px;
+    top: 100px;
+}
+
+.last-link span {
+    color: #F4F4FD;
+}
+
+.last-bloc a {
+    width: 44px;
+    height: 21px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+
+
+
+    color: #4D5AE5;
+}
+
+.last-parahraf {
+    position: absolute;
+    width: 264px;
+    height: 72px;
+    left: 156px;
+    top: 140px;
+
+    /* Body */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    letter-spacing: 0.02em;
+
+    /* CLOUD */
+
+    color: #F4F4FD;
+}
