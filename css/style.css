@@ -290,20 +290,13 @@ body {
 .second-content p {
     width: 264px;
     height: 72px;
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-
-
     letter-spacing: 0.02em;
-
-
     color: #434455;
-
-
 }
 
 .thre-bloc {
@@ -320,20 +313,14 @@ body {
     height: 40px;
     left: 559px;
     top: 120px;
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
-
-
+    line-height: 1.11px;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-
-
-
     color: #2E2F42;
 }
 
@@ -376,6 +363,7 @@ body {
     top: 232px;
 }
 
+
 .four-bloc {
     position: absolute;
     width: 1440px;
@@ -387,15 +375,43 @@ body {
     background: #F4F4FD;
 }
 
+.four-content h3 {
+    width: 144px;
+    height: 24px;
+
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #2E2F42;
+}
+
+.four-content p {
+    width: 148px;
+    height: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+
 .four-logo {
     position: absolute;
     width: 172px;
     height: 40px;
     left: 639px;
     top: 70px;
-
-    /* Header 2 */
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -417,16 +433,9 @@ body {
     align-items: center;
     padding: 0px 0px 32px;
     gap: 32px;
-
     position: absolute;
     width: 264px;
     height: 380px;
-
-
-    /* WHITE
-
-Header background, team card background
-*/
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
