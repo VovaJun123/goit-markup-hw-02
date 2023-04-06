@@ -2,8 +2,9 @@
     --main-color: hotpink;
     --pane-padding: 5px 42px;
 }
+
 body {
-    font-family: "Roboto",sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     margin: 0 auto;
     width: 1440px;
@@ -152,7 +153,8 @@ body {
     height: 120px;
     left: 472px;
     top: 188px;
-    font-family: 'Roboto';
+    line-height: 1.07;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
@@ -174,6 +176,7 @@ body {
     height: 56px;
     left: 636px;
     top: 428px;
+    cursor: pointer;
 
 
 
@@ -186,7 +189,7 @@ body {
     width: 105px;
     height: 24px;
 
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -195,9 +198,16 @@ body {
     align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-
-
 }
+
+.first-bloc button:hover {
+    background-color: #404BBF;
+}
+
+.first-bloc button:focus {
+    background-color: #404BBF;
+}
+
 
 .second-bloc {
     position: absolute;
