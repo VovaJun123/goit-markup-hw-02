@@ -743,9 +743,8 @@ body {
     align-items: flex-start;
     padding: 0px;
     gap: 24px;
-
     position: absolute;
-    width: 586px;
+    width: 626px;
     height: 48px;
     left: 427px;
     top: 168px;
@@ -765,22 +764,22 @@ body {
 }
 
 .item-bottom button {
-    background: #E7E9FC;
+
+    background-color: #F4F4FD;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     padding: 12px 24px;
-    color: #404BBF;
-    font-family: 'Roboto';
+    color: #4d5ae5;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-
-
-    /* display: flex; */
+    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
+    cursor: pointer;
 
 
 
@@ -788,7 +787,13 @@ body {
 
 .item-bottom button:hover {
     background-color: #404BBF;
-    color: #F4F4FD;
+    color: #FFFFFF;
+
+}
+
+.item-bottom button:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
 
 }
 
