@@ -949,7 +949,7 @@ body {
 
 
 /* Сторінка з фото 1 */
-.firstt-content {
+.firstt-list {
     position: absolute;
     width: 1128px;
     height: 420px;
@@ -958,7 +958,7 @@ body {
 
 }
 
-.firstt-content h2 {
+.firstt-list h2 {
     width: 290px;
     height: 24px;
     font-family: 'Roboto', sans-serif;
@@ -972,7 +972,7 @@ body {
 
 }
 
-.firstt-content p {
+.firstt-list p {
     width: 30px;
     height: 24px;
     padding-left: 16px;
@@ -996,17 +996,17 @@ body {
     border: 1px solid #E7E9FC;
 }
 
-.firstt-content :nth-child(1) {
+.firstt-list :nth-child(1) {
     left: 156px;
     top: 32px;
 }
 
-.firstt-content :nth-child(2) {
+.firstt-list :nth-child(2) {
     left: 540px;
     top: 32px;
 }
 
-.firstt-content :nth-child(3) {
+.firstt-list :nth-child(3) {
     left: 924px;
     top: 32px;
 }
@@ -1014,7 +1014,7 @@ body {
 
 
 /* Сторінка з фото 2 */
-.secondd-content {
+.secondd-list {
     position: absolute;
     width: 1128px;
     height: 420px;
@@ -1023,7 +1023,7 @@ body {
 
 }
 
-.secondd-content h2 {
+.secondd-list h2 {
     width: 290px;
     height: 24px;
     font-family: 'Roboto', sans-serif;
@@ -1037,7 +1037,7 @@ body {
 
 }
 
-.secondd-content p {
+.secondd-list p {
     width: 30px;
     height: 24px;
     padding-left: 16px;
@@ -1060,20 +1060,20 @@ body {
     border: 1px solid #E7E9FC;
 }
 
-.secondd-content :nth-child(1) {
+.secondd-list :nth-child(1) {
     left: 156px;
 }
 
-.secondd-content :nth-child(2) {
+.secondd-list :nth-child(2) {
     left: 540px;
 }
 
-.secondd-content :nth-child(3) {
+.secondd-list :nth-child(3) {
     left: 924px;
 }
 
 /* Сторінка з фото 3 */
-.three-content {
+.three-list {
     position: absolute;
     width: 1128px;
     height: 420px;
@@ -1082,7 +1082,7 @@ body {
 
 }
 
-.three-content h2 {
+.three-list h2 {
     width: 300px;
     height: 24px;
     font-family: 'Roboto', sans-serif;
@@ -1096,7 +1096,7 @@ body {
 
 }
 
-.three-content p {
+.three-list p {
     width: 70px;
     height: 34px;
     padding-left: 16px;
@@ -1119,20 +1119,14 @@ body {
     border: 1px solid #E7E9FC;
 }
 
-.three-content :nth-child(1) {
+.three-list :nth-child(1) {
     left: 156px;
 }
 
-.three-content :nth-child(2) {
+.three-list :nth-child(2) {
     left: 540px;
 }
 
-.three-content :nth-child(3) {
+.three-list :nth-child(3) {
     left: 924px;
 }
-
-
-
-
-
-
