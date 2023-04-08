@@ -949,7 +949,7 @@ body {
 
 
 /* Сторінка з фото 1 */
-.firstt-list {
+.firstt {
     position: absolute;
     width: 1128px;
     height: 420px;
@@ -958,7 +958,7 @@ body {
 
 }
 
-.firstt-list h2 {
+.firstt h2 {
     width: 290px;
     height: 24px;
     font-family: 'Roboto', sans-serif;
@@ -972,7 +972,7 @@ body {
 
 }
 
-.firstt-list p {
+.firstt p {
     width: 30px;
     height: 24px;
     padding-left: 16px;
@@ -996,17 +996,17 @@ body {
     border: 1px solid #E7E9FC;
 }
 
-.firstt-list :nth-child(1) {
+.firstt :nth-child(1) {
     left: 156px;
     top: 32px;
 }
 
-.firstt-list :nth-child(2) {
+.firstt :nth-child(2) {
     left: 540px;
     top: 32px;
 }
 
-.firstt-list :nth-child(3) {
+.firstt :nth-child(3) {
     left: 924px;
     top: 32px;
 }
@@ -1014,7 +1014,7 @@ body {
 
 
 /* Сторінка з фото 2 */
-.secondd-list {
+.secondd {
     position: absolute;
     width: 1128px;
     height: 420px;
@@ -1023,7 +1023,7 @@ body {
 
 }
 
-.secondd-list h2 {
+.secondd h2 {
     width: 290px;
     height: 24px;
     font-family: 'Roboto', sans-serif;
@@ -1037,7 +1037,7 @@ body {
 
 }
 
-.secondd-list p {
+.secondd p {
     width: 30px;
     height: 24px;
     padding-left: 16px;
@@ -1060,20 +1060,20 @@ body {
     border: 1px solid #E7E9FC;
 }
 
-.secondd-list :nth-child(1) {
+.secondd :nth-child(1) {
     left: 156px;
 }
 
-.secondd-list :nth-child(2) {
+.secondd :nth-child(2) {
     left: 540px;
 }
 
-.secondd-list :nth-child(3) {
+.secondd :nth-child(3) {
     left: 924px;
 }
 
 /* Сторінка з фото 3 */
-.three-list {
+.three {
     position: absolute;
     width: 1128px;
     height: 420px;
@@ -1082,7 +1082,7 @@ body {
 
 }
 
-.three-list h2 {
+.three h2 {
     width: 300px;
     height: 24px;
     font-family: 'Roboto', sans-serif;
@@ -1096,7 +1096,7 @@ body {
 
 }
 
-.three-list p {
+.three p {
     width: 70px;
     height: 34px;
     padding-left: 16px;
@@ -1119,14 +1119,14 @@ body {
     border: 1px solid #E7E9FC;
 }
 
-.three-list :nth-child(1) {
+.three :nth-child(1) {
     left: 156px;
 }
 
-.three-list :nth-child(2) {
+.three :nth-child(2) {
     left: 540px;
 }
 
-.three-list :nth-child(3) {
+.three :nth-child(3) {
     left: 924px;
 }
