@@ -126,11 +126,11 @@ body {
 
 }
 
-.second-logo {
+.logo-second {
     visibility: hidden;
 }
 
-.second-content .link-one {
+.second .link-one {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -143,7 +143,7 @@ body {
     left: 156px;
 }
 
-.second-content .link-two {
+.second .link-two {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -157,7 +157,7 @@ body {
 
 }
 
-.second-content .link-three {
+.second .link-three {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -171,7 +171,7 @@ body {
 
 }
 
-.second-content .link-four {
+.second .link-four {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -185,7 +185,7 @@ body {
 
 }
 
-.second-content h3 {
+.second h3 {
     width: 264px;
     height: 24px;
 
@@ -201,7 +201,7 @@ body {
 
 }
 
-.second-content p {
+.second p {
     width: 264px;
     height: 72px;
     font-family: 'Roboto';
