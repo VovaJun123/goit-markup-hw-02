@@ -671,7 +671,7 @@ body {
     color: #404bbf;
 }
 
-.menuu .link-header:focus {
+.menuu .linkk-header:focus {
     color: #404bbf;
 }
 
@@ -687,6 +687,7 @@ body {
     letter-spacing: 0.02em;
     color: #2E2F42;
     list-style-type: none;
+    font-style: normal;
 }
 
 
