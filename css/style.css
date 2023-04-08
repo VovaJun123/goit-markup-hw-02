@@ -948,6 +948,7 @@ body {
 
 
 
+
 /* Сторінка з фото 1 */
 .firstt {
     position: absolute;
@@ -956,6 +957,10 @@ body {
     top: 288px;
     list-style-type: none;
 
+}
+
+.firstt-link a {
+    text-decoration: none;
 }
 
 .firstt h2 {
@@ -1023,6 +1028,10 @@ body {
 
 }
 
+.secondd-link a {
+    text-decoration: none;
+}
+
 .secondd h2 {
     width: 290px;
     height: 24px;
@@ -1080,6 +1089,10 @@ body {
     top: 1124px;
     list-style-type: none;
 
+}
+
+.three-link a {
+    text-decoration: none;
 }
 
 .three h2 {
