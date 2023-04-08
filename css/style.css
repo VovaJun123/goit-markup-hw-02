@@ -605,7 +605,7 @@ body {
     top: 0px;
 }
 
-.logoo-link {
+.linkkk {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -614,25 +614,24 @@ body {
     width: 115px;
     height: 24px;
     left: 156px;
-    top: 9px;
+    top: 24px;
     width: 44px;
     height: 21px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17;
+    line-height: 21px;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
     text-decoration: none;
+
 }
 
-
-
-.headerr-link .logoo-text {
+.logo-text {
     width: 71px;
     height: 21px;
     font-family: 'Raleway';
@@ -644,9 +643,10 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none;
     color: #2E2F42;
 }
+
+
 
 .menuu {
     display: flex;
