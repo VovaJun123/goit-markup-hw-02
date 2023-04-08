@@ -667,6 +667,13 @@ body {
 .list {
     list-style-type: none;
 }
+.menuu .linkk-header:hover {
+    color: #404bbf;
+}
+
+.menuu .link-header:focus {
+    color: #404bbf;
+}
 
 .menuu .linkk-header {
     width: 48px;
@@ -727,6 +734,18 @@ body {
 .secondd-logo {
     visibility: hidden;
 }
+.linkk-contact:hover {
+    color: #404bbf;
+}
+
+.linkk-contact:focus {
+    color: #404bbf;
+}
+
+.menuuu {
+    list-style-type: none;
+}
+
 
 /* button */
 
