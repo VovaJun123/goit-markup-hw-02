@@ -593,15 +593,7 @@ body {
     color: #F4F4FD;
 }
 
-body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    margin: 0 auto;
-    width: 1440px;
-    position: relative;
-    background-color: #ffff;
 
-}
 
 
 
@@ -613,42 +605,36 @@ body {
     top: 0px;
 }
 
-.logoo {
+.logoo-link {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px;
-
     position: absolute;
     width: 115px;
     height: 24px;
     left: 156px;
-    top: 24px;
-}
-
-.headerr-link a {
+    top: 9px;
     width: 44px;
     height: 21px;
-
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
     text-decoration: none;
-
-
 }
 
-.headerr-link span {
+
+
+.headerr-link .logoo-text {
     width: 71px;
     height: 21px;
-
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
@@ -662,7 +648,7 @@ body {
     color: #2E2F42;
 }
 
-.menuu-link {
+.menuu {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -675,10 +661,14 @@ body {
     left: 347px;
     justify-content: center;
     top: 24px;
+
+}
+
+.list {
     list-style-type: none;
 }
 
-.menuu-link .linkk-header {
+.menuu .linkk-header {
     width: 48px;
     height: 24px;
     text-decoration: none;
@@ -691,6 +681,10 @@ body {
     color: #2E2F42;
     list-style-type: none;
 }
+
+
+
+
 
 .linkk-second {
     position: absolute;
