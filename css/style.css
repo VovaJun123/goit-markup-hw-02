@@ -385,7 +385,7 @@ body {
     background: #2E2F42;
 }
 
-.last-link {
+.last {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -398,7 +398,7 @@ body {
     top: 100px;
 }
 
-.last-link span {
+.last span {
     color: #F4F4FD;
 }
 
@@ -410,7 +410,7 @@ body {
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
 
 
     display: flex;
