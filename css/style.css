@@ -70,19 +70,20 @@ body {
     height: 120px;
     left: 472px;
     top: 188px;
-    line-height: 1.07px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
+    line-height: 1.07px;
     line-height: 60px;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
-.first-bloc h1 {
+.bloc-logo {
     line-height: 1.07;
 }
+
 
 .first-bloc .first-button {
     display: flex;
