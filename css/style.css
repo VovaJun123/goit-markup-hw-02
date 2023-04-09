@@ -708,13 +708,13 @@ body {
 
 }
 
-.main-bottom:hover {
+.meenu button:hover {
     background-color: #404BBF;
     color: #FFFFFF;
 
 }
 
-.main-bottom:focus {
+.meenu button:focus {
     background-color: #404BBF;
     color: #FFFFFF;
 
