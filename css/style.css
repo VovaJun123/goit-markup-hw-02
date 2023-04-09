@@ -295,7 +295,7 @@ body {
     background: #F4F4FD;
 }
 
-.four-content h3 {
+.four h3 {
     width: 144px;
     height: 24px;
 
@@ -312,7 +312,7 @@ body {
     color: #2E2F42;
 }
 
-.four-content p {
+.four p {
     width: 148px;
     height: 24px;
     font-family: 'Roboto';
@@ -362,22 +362,22 @@ body {
 
 }
 
-.four-content :nth-child(1) {
+.four :nth-child(1) {
     left: 156px;
     top: 242px;
 }
 
-.four-content :nth-child(2) {
+.four :nth-child(2) {
     left: 444px;
     top: 242px;
 }
 
-.four-content :nth-child(3) {
+.four :nth-child(3) {
     left: 732px;
     top: 242px;
 }
 
-.four-content :nth-child(4) {
+.four :nth-child(4) {
     left: 1020px;
     top: 242px;
 }
