@@ -51,6 +51,9 @@ body {
 .menu-contact {
     list-style-type: none;
 }
+.main-contact {
+    font-style: normal;
+}
 
 .first-bloc {
     position: absolute;
