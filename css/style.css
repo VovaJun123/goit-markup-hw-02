@@ -298,9 +298,6 @@ body {
 .four h3 {
     width: 144px;
     height: 24px;
-
-
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -318,12 +315,14 @@ body {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 15px;
     text-align: center;
     letter-spacing: 0.02em;
     color: #434455;
 
+}
+.four-parahraf {
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .four-logo {
