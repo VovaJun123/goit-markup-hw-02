@@ -302,7 +302,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.11;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
 
@@ -325,7 +325,7 @@ body {
     line-height: 1.5;
 }
 
-.four-logo {
+.four-bloc .four-logo {
     position: absolute;
     width: 172px;
     height: 40px;
