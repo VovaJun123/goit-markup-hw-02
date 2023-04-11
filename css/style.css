@@ -98,11 +98,9 @@ body {
     align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
- 
+ background-color: #4D5AE5;
 }
-.first-button {
-    background-color: #4D5AE5;
-}
+
 
 .first-bloc button:hover {
     background-color: #404BBF;
