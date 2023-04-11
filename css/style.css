@@ -51,7 +51,7 @@ body {
     background: #2E2F42;
 }
 
-.first-bloc .bloc-logo {
+.first-bloc h1 {
     position: absolute;
     width: 496px;
     height: 120px;
@@ -61,14 +61,12 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
-.bloc-logo h1 {
-    line-height: 1.07;
-}
+
 
 
 .first-bloc .first-button {
