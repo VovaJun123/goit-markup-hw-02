@@ -712,13 +712,8 @@ body {
 
 }
 
-.main-bottom:hover {
-    background-color: #404BBF;
-    color: #FFFFFF;
-
-}
-
-.main-bottom:hover {
+.main-bottom:hover,
+.main-bottom:focus {
     background-color: #404BBF;
     color: #FFFFFF;
 
