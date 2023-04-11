@@ -695,9 +695,8 @@ body {
 
 
 }
-.main-bottom:focus,
-.main-bottom:hover {
-
+.meenu button:hover,
+.meenu button:focus {
     background-color: #404BBF;
     color: #FFFFFF;
 
