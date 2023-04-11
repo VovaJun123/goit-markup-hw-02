@@ -14,21 +14,8 @@ body {
 }
 
 
-.link-second {
-    position: absolute;
-    width: 151px;
-    height: 24px;
+.contact-second a {
     left: 1133px;
-    top: 24px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #434455;
-    list-style-type: none;
-    text-decoration: none;
 }
 
 .link-contact {
