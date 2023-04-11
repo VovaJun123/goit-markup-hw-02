@@ -712,13 +712,13 @@ body {
 
 }
 
-.item-botttom button:hover {
+.main-bottom:hover {
     background-color: #404BBF;
     color: #FFFFFF;
 
 }
 
-.item-botttom button:focus {
+.main-bottom:hover {
     background-color: #404BBF;
     color: #FFFFFF;
 
