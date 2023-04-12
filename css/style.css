@@ -98,9 +98,11 @@ body {
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    background-color: #4D5AE5; 
     color: #FFFFFF;
 
+}
+.first-butttton {
+    background-color: #4D5AE5;
 }
 
 
