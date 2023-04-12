@@ -674,7 +674,7 @@ body {
 
 }
 
-.item-botttom button {
+.meenu button {
 
     background-color: #F4F4FD;
     border: 1px solid #E7E9FC;
@@ -695,8 +695,8 @@ body {
 
 
 }
-.meenu button:hover,
-.meenu button:focus {
+.filter-btn:hover,
+.filter-btn:focus {
     background-color: #404BBF;
     color: #FFFFFF;
 
