@@ -12,6 +12,12 @@ body {
     background-color: #ffff;
 
 }
+button:hover,
+:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
 
 
 .contact-second a {
