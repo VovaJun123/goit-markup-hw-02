@@ -50,7 +50,10 @@ body {
     top: 72px;
     background: #2E2F42;
 }
+ .first-butttton:hover:focus {
 
+    background-color: #404BBF;
+}
 .first-bloc h1 {
     position: absolute;
     width: 496px;
@@ -104,11 +107,6 @@ body {
 }
 
 
-
- .first-butttton:hover:focus {
-
-    background-color: #404BBF;
-}
 
 
 .second-bloc {
