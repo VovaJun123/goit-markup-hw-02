@@ -105,7 +105,7 @@ body {
 
 
 
-.first-bloc .first-butttton:hover,
+.first-bloc .first-butttton:hover
 :focus {
     color: #FFFFFF;
     background-color: #404BBF;
