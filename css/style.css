@@ -105,11 +105,9 @@ body {
 
 
 
-.first-bloc button:hover {
-    background-color: #404BBF;
-}
-
-.first-bloc button:focus {
+.first-butttton:hover,
+:focus {
+    color: #FFFFFF;
     background-color: #404BBF;
 }
 
@@ -697,15 +695,10 @@ body {
 
 
 }
-.filter-btn:hover{
-    background-color: #404BBF;
+.filter-btn:hover,
+:focus {
     color: #FFFFFF;
-
-}
-.filter-btn:focus {
     background-color: #404BBF;
-    color: #FFFFFF;
-
 }
 
 
