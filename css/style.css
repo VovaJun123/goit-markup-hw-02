@@ -696,7 +696,7 @@ body {
 
 }
 .btn:hover,
-:focus {
+.btn:focus {
     color: #FFFFFF;
     background-color: #404BBF;
 }
