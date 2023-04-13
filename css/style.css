@@ -105,13 +105,8 @@ body {
 
 
 
- .first-butttton:hover
- {
-   
-    background-color: #404BBF;
-}
- .first-butttton:focus {
-    
+ .first-butttton:hover:focus {
+
     background-color: #404BBF;
 }
 
