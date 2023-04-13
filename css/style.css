@@ -695,7 +695,7 @@ body {
 
 
 }
-.filter-btn:hover,
+.meenu button:hover,
 :focus {
     color: #FFFFFF;
     background-color: #404BBF;
