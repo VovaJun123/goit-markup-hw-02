@@ -106,8 +106,12 @@ body {
 
 
 .first-bloc .first-butttton:hover
-:focus {
-    color: #FFFFFF;
+ {
+   
+    background-color: #404BBF;
+}
+.first-bloc .first-butttton:focus {
+    
     background-color: #404BBF;
 }
 
