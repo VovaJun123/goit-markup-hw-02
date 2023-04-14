@@ -702,8 +702,8 @@ body {
 }
 section  .filter:hover,
 :focus {
-    color: var(--main-color);
-    background-color: var(--second-background-color);
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
 
 
