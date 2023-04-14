@@ -81,10 +81,9 @@ body {
     padding: 16px 32px;
     gap: 10px;
     width: 175px;
-    position: absolute;
+  
     height: 56px;
-    left: 636px;
-    top: 428px;
+   
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -100,6 +99,9 @@ first-butttton:hover {
 }
 .first-bloc button {
     width: 105px;
+    position: absolute; 
+    left: 636px;
+    top: 428px;
     height: 24px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -111,6 +113,7 @@ first-butttton:hover {
     letter-spacing: 0.04em;
     color: #FFFFFF;
      background-color: #4D5AE5;
+    
 
 }
 
