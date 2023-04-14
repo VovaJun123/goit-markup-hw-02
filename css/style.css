@@ -701,8 +701,8 @@ body {
 
 }
 .list .filter:hover {
-    color: #FFFFFF;
-    background-color: #404BBF;
+  color: var(--main-color);
+    background-color: var(--second-background-color);
 }
 
 .list .filter:focus {
