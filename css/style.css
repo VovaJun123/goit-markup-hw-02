@@ -700,7 +700,7 @@ body {
 
 
 }
-section  .filter:hover,
+.filter:hover,
 :focus {
     color: #FFFFFF;
     background-color: #404BBF;
