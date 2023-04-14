@@ -90,7 +90,7 @@ body {
     border-radius: 4px;
      
 }
-.first-bloc button:hover {
+.first-bloc .first-butttton:hover {
 
     background-color: var(--second-background-color);
 }
