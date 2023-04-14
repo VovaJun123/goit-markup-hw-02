@@ -1,6 +1,7 @@
 :root {
     --main-color: hotpink;
     --pane-padding: 5px 42px;
+    --second-background-color: #404BBF;
 }
 
 body {
@@ -92,9 +93,13 @@ button:hover,
     border-radius: 4px;
      
 }
-.first-bloc .first-butttton:hover :focus {
+.first-bloc button:hover {
 
-    background-color: #404BBF;
+    background-color: var(--second-background-color);
+}
+.first-bloc button:focus {
+
+    background-color: var(--second-background-color);
 }
 .first-bloc button {
     width: 105px;
