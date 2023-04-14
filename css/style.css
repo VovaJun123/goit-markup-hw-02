@@ -1,5 +1,5 @@
 :root {
-    --main-color: #ffff;
+    --main-color: #FFFFFF;
     --pane-padding: 5px 42px;
     --second-background-color: #404BBF;
 }
@@ -14,11 +14,7 @@ body {
     background-color: #ffff;
 
 }
-button:hover,
-:focus {
-    color: #FFFFFF;
-    background-color: #404BBF;
-}
+
 
 
 
