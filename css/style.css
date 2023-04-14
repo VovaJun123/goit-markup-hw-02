@@ -89,14 +89,12 @@ body {
     border-radius: 4px;
      
 }
-first-butttton:hover {
+.first-butttton:hover, 
+.first-butttton:focus{
 
     background-color: #404BBF;
 }
-.first-bloc button:focus {
 
-    background-color: var(--second-background-color);
-}
 .first-bloc button {
     width: 105px;
     position: absolute; 
