@@ -700,8 +700,12 @@ body {
 
 
 }
-ul .filter:hover,
-:focus {
+.list .filter:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.list .filter:focus {
     color: #FFFFFF;
     background-color: #404BBF;
 }
