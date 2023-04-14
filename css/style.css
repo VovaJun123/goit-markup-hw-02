@@ -1,8 +1,9 @@
 :root {
-    --main-color: hotpink;
+    --main-color: #ffff;
     --pane-padding: 5px 42px;
     --second-background-color: #404BBF;
 }
+
 
 body {
     font-family: "Roboto", sans-serif;
@@ -703,10 +704,10 @@ button:hover,
 
 
 }
-.btn:hover,
-.btn:focus {
-    color: #FFFFFF;
-    background-color: #404BBF;
+.meenu button:hover,
+:focus {
+    color: var(--main-color);
+    background-color: var(--second-background-color);
 }
 
 
