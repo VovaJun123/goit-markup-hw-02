@@ -694,15 +694,11 @@ body {
 }
 
 
-.filter:hover, 
-.filter:focus{
+.filter:focus,
+.filter:hover {
 
+    color: #FFFFFF;
     background-color: #404BBF;
-}
-.filter:hover, 
-.filter:focus{
-
-   color: #FFFFFF;
 }
 
 
