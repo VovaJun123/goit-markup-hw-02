@@ -703,11 +703,16 @@ body {
 
 }
 
-.meenu .filter:focus,
-.meenu .filter:hover {
- background-color: #404BBF;
-    color: #FFFFFF;
-   
+
+.filter:focus, 
+.filter:hover{
+
+    background-color: #404BBF;
+}
+.filter:focus, 
+.filter:hover{
+
+   color: #FFFFFF;
 }
 
 
