@@ -863,8 +863,9 @@ body {
     position: absolute;
     width: 1128px;
     height: 420px;
-    top: 188px;
+    top: 235px;
     list-style-type: none;
+    margin-top:0;
 
 }
 
