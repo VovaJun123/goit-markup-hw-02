@@ -694,7 +694,7 @@ body {
 }
 
 
-.filter:is(:hover, :focus) {    color: #FFFFFF;    background-color: var(--second-background-color);}
+.filter:is(:hover, :focus) {       background-color: #404BBF;     color: #FFFFFF;     }
 
 
 
