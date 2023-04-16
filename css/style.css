@@ -89,8 +89,8 @@ body {
     border-radius: 4px;
      
 }
-.first-butttton:focus, 
-.first-butttton:hover{
+.first-button:focus, 
+.first-button:hover{
 
     background-color: #404BBF;
 }
