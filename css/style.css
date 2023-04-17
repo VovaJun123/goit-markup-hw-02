@@ -512,7 +512,7 @@ body {
 
 
 .headerr-link {
-    position: absolute;
+    
     width: 1440px;
     height: 72px;
     left: 0px;
@@ -694,7 +694,7 @@ body {
 }
 
 
-.filter:is(:hover, :focus) {       background-color: #404BBF;     color: #FFFFFF;     }
+.filter:is(:hover, :focus) {       background-color: var(--second-background-color, #404BBF);     color: #FFFFFF;     }
 
 
 
