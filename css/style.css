@@ -4,6 +4,7 @@
     --second-background-color: #404BBF;
     --thre-background-color: #4d5ae5;
     --button-background-color: #e7e9fc;
+    --parahraf-color: #434455;
 }
 
 
@@ -510,7 +511,7 @@ body {
     color: #F4F4FD;
 }
 
-/*............................................................ portfolio-footer */
+
 
 
 /* ...................................................portfolio */
@@ -575,6 +576,16 @@ body {
     border: 1px solid #e7e9fc;
     border-top: none;
 }
+.second-parahraf{
+    line-height: 1.5
+    letter-spacing: 0.02em;
+    color: var(--parahraf-color);
+}
+.link{
+    text-decoration: none;
+}
+    
+    
 
 
 
