@@ -577,7 +577,7 @@ body {
     border-top: none;
 }
 .second-parahraf{
-    line-height: 1.5
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--parahraf-color);
 }
