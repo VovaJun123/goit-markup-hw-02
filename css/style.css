@@ -5,16 +5,15 @@
     --thre-background-color: #4d5ae5;
     --button-background-color: #e7e9fc;
     --parahraf-color: #434455;
+    --logo-color: #2E2F42;
+    --four-section-color: #F4F4FD;
 }
 
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #434455;
-    margin: 0 auto;
-    width: 1440px;
-    position: relative;
-    background-color: #ffff;
+    color: var(--parahraf-color);
+    background-color: var(--main-color);
 
 }
 
@@ -23,60 +22,36 @@ body {
 
 .header-link {
     align-items: center;
-    width: 1440px;
-    left: 0px;
-    top: 0px;
 }
 
 .header-bloc {
     border-bottom: 1px solid #e7e9fc;
-    height: 72px;
 }
 
 .logo-text {
-    color: #2E2F42;
+    color: var(--logo-color);
 }
 
-.header-conteiner {
-    display: flex;
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px 0 15px;
-}
 
 
 .linkk-contact {
-    display: flex;
-    width: 153px;
-    height: 24px;
-    font-family: 'Roboto';
+
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--parahraf-color);
     text-decoration: none;
 }
 
 .menuuu {
     list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    margin: 0;
-    gap: 40px;
-    width: 261px;
-    height: 24px;
-    justify-content: center;
-    top: 24px;
+
 }
 
 .logo {
-
     align-items: center;
-    height: 24px;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -85,34 +60,17 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--thre-background-color);
     text-decoration: none;
-    margin-right: 76px;
-
-    display: inline-block;
-    flex-direction: row;
 
 
 
 }
 
-
-.linkk-header {
-    padding: 24px 0;
-}
 
 .menuu {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 40px;
-    margin: 0;
-    width: 261px;
-    height: 24px;
-    left: 347px;
+
     justify-content: center;
-    top: 24px;
 }
 
 .list {
@@ -120,24 +78,21 @@ body {
 }
 
 .menuu .linkk-header:hover {
-    color: #404bbf;
+    color: var(--second-background-color);
 }
 
 .menuu .linkk-header:focus {
-    color: #404bbf;
+    color: var(--second-background-color);
 }
 
 .menuu .linkk-header {
-    width: 48px;
-    height: 24px;
     text-decoration: none;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--logo-color);
     list-style-type: none;
     font-style: normal;
 }
@@ -149,11 +104,11 @@ body {
 }
 
 .linkk-contact:hover {
-    color: #404bbf;
+    color: var(--second-background-color);
 }
 
 .linkk-contact:focus {
-    color: #404bbf;
+    color: var(--second-background-color);
 }
 
 .main-contact {
@@ -163,25 +118,13 @@ body {
 /*............................................................ section-1 */
 
 .first-bloc {
-    width: 1440px;
-    height: 600px;
-    left: 0px;
-    top: 72px;
-    background: #2E2F42;
+    background: var(--logo-color);
 
 }
 
-.first-conteiner {
-
-    padding: 188px 0;
-}
 
 .first-bloc h1 {
     display: block;
-    max-width: 496px;
-    height: 120px;
-    margin: 0 auto;
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
@@ -189,32 +132,26 @@ body {
     text-align: center;
     align-items: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--main-color);
 }
 
 
 
 .first-button {
-    width: 169px;
     display: block;
-    margin: 0 auto;
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     align-items: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-    min-width: 169px;
-    height: 56px;
+    color: var(--main-color);
     border: none;
     background-color: var(--thre-background-color);
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    background-color: #4D5AE5;
-    margin-top: 48px;
+    background-color: var(--thre-background-color);
 
 }
 
@@ -229,114 +166,61 @@ body {
 /*............................................................ section-2 */
 
 
-.second-bloc {
-    margin: 0 auto;
-    width: 1128px;
-    /* height: 104px; */
-    padding: 120px 0;
 
-
-
-}
-
-.second {
-    display: flex;
-    gap: 24px;
-    height: 104px;
-
-}
 
 .blocc-logo {
     visibility: hidden;
-    max-width: 496px;
-    margin: 0;
+
 }
 
-/* .linkcc-logo {
 
-    margin-bottom: 8px;
-} */
 
 .second .link-one {
-    display: flex;
-    flex-direction: column;
+
     align-items: flex-start;
-    padding: 0px;
-    gap: 8px;
-    width: 264px;
-    height: 104px;
+
 }
 
-.link-one {
-    width: calc((100% - 72px) / 4);
-}
+
 
 .second h3 {
-    width: 264px;
-    height: 24px;
-    font-family: 'Roboto';
+
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--logo-color);
 }
 
 .second p {
-    width: 264px;
-    height: 72px;
-    font-family: 'Roboto';
+
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--parahraf-color);
     margin: 0;
 }
 
 /*............................................................ section-3 */
 
-.thre-bloc {
-    /* position: absolute; */
-    width: 1128px;
-    height: 412px;
-    /* top: 944px; */
-    margin: 0 auto;
-    padding-bottom: 120px;
 
-}
-
-
-
-.thre {
-    display: flex;
-    gap: 24px;
-    padding-top: 72px;
-
-}
 
 .three p {
-    width: 80px;
-    height: 34px;
-    padding-left: 16px;
-    font-family: 'Roboto', sans-serif;
+
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--parahraf-color);
 }
 
 
 .thre-bloc h2 {
-    /* margin-bottom: 72px; */
-    margin: 0 auto;
-    width: 333px;
-    height: 40px;
-    font-family: 'Roboto';
+
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -344,55 +228,40 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--logo-color);
 }
 
-.llink {
-    width: calc((100% - 48px) / 3);
-}
+
 
 
 
 /*............................................................ section-4*/
 .four-bloc {
-    margin: 0 auto;
-    width: 1440px;
-    height: 732px;
-    background: #F4F4FD;
+
+    background: var(--four-section-color);
 }
 
 .four h3 {
-    width: 144px;
-    height: 24px;
-    font-family: 'Roboto';
+
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--logo-color);
 }
 
 .four p {
-    width: 148px;
-    height: 24px;
-    font-family: 'Roboto';
+
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--parahraf-color);
 
 }
 
-.four {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    padding: 0 156px 120px 156px;
-    margin: 0;
 
-}
 
 .four-parahraf {
     font-size: 16px;
@@ -400,81 +269,55 @@ body {
     text-align: center;
 }
 
-.four-logo {
-    margin-bottom: 72px;
-}
 
 
 
 .four-bloc h2 {
 
-    width: 172px;
-    height: 40px;
-    margin: 0 auto;
-    padding: 120px 0 72px 0;
-    font-family: 'Roboto';
+
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    text-align: center ;
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--logo-color);
 }
 
 .four-link {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-    background: #FFFFFF;
+
+    background: var(--main-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-    /* width: calc((100% - 72px) / 4); */
+
 
 }
 
-.four-conteiner {
-    margin: 0 auto;
-    width: 1440px;
-    height: 732px;
 
-}
-
-.link-box {
-    padding: 32px 16px;
-}
 
 .linkcc-logo {
     text-align: center;
-    margin-bottom: 8px;
 }
 
 
 /*............................................................ footer */
 .last-bloc {
-    width: 1440px;
-    height: 312px;
-    background: #2E2F42;
+
+    background: var(--logo-color);
 
 }
 
-.last-continer {
-    padding: 100px 0 0 156px;
-}
+
 
 
 
 .last span {
-    color: #F4F4FD;
+    color: var(--four-section-color);
 }
 
 .last-bloc a {
-    width: 44px;
-    height: 21px;
+
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -484,31 +327,22 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    color: #4D5AE5;
+    color: var(--thre-background-color);
 }
 
 .last {
     display: inline-block;
-    flex-direction: row;
     align-items: center;
-    margin-bottom: 16px;
-    padding: 0px;
-    width: 115px;
-    height: 24px;
 
 }
 
 .last-parahraf {
-
-    height: 72px;
-    max-width: 264px;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
+    color: var(--four-section-color);
 }
 
 
@@ -519,22 +353,12 @@ body {
 
 .secondd-logo {
     visibility: hidden;
-    margin: 0;
-    padding: 0;
-    height: 0;
 }
 
 .firstt {
-    width: 1128px;
-    height: 1356px;
-    top: 235px;
+
     list-style-type: none;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
-    margin-bottom: 120px;
+
 }
 
 
@@ -544,16 +368,12 @@ body {
 }
 
 .firstt h2 {
-    width: 290px;
-    height: 24px;
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    padding-left: 16px;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--logo-color);
 
 }
 
@@ -561,31 +381,30 @@ body {
 
 .firstt-link {
     box-sizing: border-box;
-    width: 360px;
-    height: 420px;
-    top: 288px;
-    background: #FFFFFF;
-    border: 1px solid #E7E9FC;
-    width: calc((100% - 48px) / 3);
+
+    background: var(--main-color);
+    border: 1px solid var(--button-background-color);
+
 
 
 }
 
 .link-boxx {
-    /* padding: 32px 16px; */
-    border: 1px solid #e7e9fc;
+    border: 1px solid var(--button-background-color);
     border-top: none;
 }
-.second-parahraf{
+
+.second-parahraf {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--parahraf-color);
 }
-.link{
+
+.link {
     text-decoration: none;
 }
-    
-    
+
+
 
 
 
@@ -595,36 +414,22 @@ body {
 
 /* ..................................................portfolio-button */
 
-.parahraf-conteiner {
-    /* padding: 96px 0 120px; */
 
-}
 
 .meenu {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
+
     align-items: center;
-    padding: 0px;
-    gap: 24px;
-    width: 626px;
-    height: 48px;
-    margin: 0 auto;
     list-style: none;
-    margin-bottom: 72px;
-    margin-top: 96px;
 }
 
 
 
 .meenu button {
 
-    background-color: #F4F4FD;
-    border: 1px solid #E7E9FC;
+    background-color: var(--four-section-color);
+    border: 1px solid var(--button-background-color);
     border-radius: 4px;
-    padding: 12px 24px;
-    color: #4d5ae5;
-    font-family: 'Roboto', sans-serif;
+    color: var(--thre-background-color);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -638,12 +443,11 @@ body {
 
 .filter:is(:hover, :focus) {
     background-color: var(--second-background-color, #404BBF);
-    color: #FFFFFF;
+    color: var(--main-color);
     border: 1px solid transparent;
 }
 
 .filter {
-    padding: 12px 24px;
     border: 1px solid var(--button-background-color);
     border-radius: 4px;
 }
