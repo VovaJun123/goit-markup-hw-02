@@ -36,8 +36,8 @@ body {
 
 .linkk-contact {
 
-    font-style: normal;
-    font-weight: 400;
+    
+    
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -53,7 +53,6 @@ body {
 .logo {
     align-items: center;
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -87,14 +86,12 @@ body {
 
 .menuu .linkk-header {
     text-decoration: none;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--logo-color);
     list-style-type: none;
-    font-style: normal;
 }
 
 
@@ -125,7 +122,6 @@ body {
 
 .first-bloc h1 {
     display: block;
-    font-style: normal;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -140,7 +136,6 @@ body {
 .first-button {
     display: block;
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -186,7 +181,7 @@ body {
 
 .second h3 {
 
-    font-style: normal;
+    
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -196,8 +191,8 @@ body {
 
 .second p {
 
-    font-style: normal;
-    font-weight: 400;
+    
+    
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -211,8 +206,8 @@ body {
 
 .three p {
 
-    font-style: normal;
-    font-weight: 400;
+    
+   
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -222,7 +217,7 @@ body {
 
 .thre-bloc h2 {
 
-    font-style: normal;
+    
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -244,7 +239,7 @@ body {
 
 .four h3 {
 
-    font-style: normal;
+   
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -255,8 +250,7 @@ body {
 
 .four p {
 
-    font-style: normal;
-    font-weight: 400;
+    
     letter-spacing: 0.02em;
     color: var(--parahraf-color);
 
@@ -276,7 +270,7 @@ body {
 .four-bloc h2 {
 
 
-    font-style: normal;
+   
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -320,7 +314,6 @@ body {
 .last-bloc a {
 
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -338,8 +331,7 @@ body {
 }
 
 .last-parahraf {
-    font-style: normal;
-    font-weight: 400;
+   
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -369,7 +361,7 @@ body {
 }
 
 .firstt h2 {
-    font-style: normal;
+   
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -432,7 +424,6 @@ body {
     font-family: 'Roboto', sans-serif;
     border-radius: 4px;
     color: var(--thre-background-color);
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
